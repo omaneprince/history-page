@@ -1,11 +1,26 @@
-* {
+* body {
   box-sizing: border-box;
+  background: rgb(41, 41, 41);
+  font-family: font-family: 'Readex Pro', sans-serif;
 }
-body {
-  margin: 0px;
-  padding: 0px;
-  background: rgb(56, 47, 55);
+html body header li a {
+  margin: 0;
+  padding: 0;
 }
-header {
-  background: rgb(56, 47, 55);
+nav,
+ul,
+li,
+a {
+  display: flex;
+}
+main {
+    max-width: 1300px;
+}
+header a {
+    font-size:2rem;
+    text-decoration:none;
+}
+a {
+    justify-content:space-between;
+    margin-bottom:20px;
 }
