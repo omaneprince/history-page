@@ -1,6 +1,9 @@
 * body {
   box-sizing: border-box;
-  background: rgb(41, 41, 41);
+  background: rgb(34, 34, 34);
+  background-image:url(images/Rectangle\ 1.png);
+ background-position:center;
+ background-repeat: no-repeat;
   font-family: font-family: 'Readex Pro', sans-serif;
 }
 html body header li a {
@@ -37,4 +40,15 @@ a {
 .thumb {
     font-size:30px;
 }
-
+section {
+    position: relative;
+    margin-bottom:10px;
+}
+.osh {
+    font-size:8rem;
+    text-transform:uppercase;
+    margin-bottom:10px;
+    color: white;
+}span {
+    color:white;
+}
