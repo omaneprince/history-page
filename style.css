@@ -14,13 +14,27 @@ a {
   display: flex;
 }
 main {
-    max-width: 1300px;
+    max-width: 1500px;
 }
 header a {
-    font-size:2rem;
+    font-size:0.9em;
     text-decoration:none;
+    color: white;
+    text-transform:uppercase;
 }
+ul,
+li,
 a {
     justify-content:space-between;
     margin-bottom:20px;
+    margin-right:40px;
 }
+.insta {
+    margin: auto;
+    margin-right:30px;
+    margin-top:20px;
+}
+.thumb {
+    font-size:30px;
+}
+
