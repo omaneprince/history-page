@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: rgb(56, 47, 55);
+}
+header {
+  background: rgb(56, 47, 55);
+}
