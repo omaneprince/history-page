@@ -32,6 +32,10 @@ a {
     margin-bottom:20px;
     margin-right:40px;
 }
+.spin {
+    margin-bottom:10px;
+}
+
 .insta {
     margin: auto;
     margin-right:30px;
@@ -40,15 +44,16 @@ a {
 .thumb {
     font-size:30px;
 }
-section {
-    position: relative;
-    margin-bottom:10px;
+.history {
+display: flex;
+margin-bottom:0px;
 }
 .osh {
     font-size:8rem;
     text-transform:uppercase;
-    margin-bottom:10px;
+    margin-top:-50px;
     color: white;
 }span {
+    margin-left:40px;
     color:white;
 }
