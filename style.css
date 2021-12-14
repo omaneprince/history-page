@@ -1,6 +1,5 @@
 * body {
     box-sizing: border-box;
-    background: rgb(34, 34, 34);
     background-image:url(images/Rectangle\ 1.png);
     background-position:top;
     background-repeat: no-repeat;
@@ -52,10 +51,53 @@ margin-top:-50px;
 .osh {
     font-size:8rem;
     text-transform:uppercase;
-    margin-top:-50px;
+    margin-top:0px;
     color: white;
     margin-left:40px;
 }
 .too {
     color:white;
+}
+@media screen and (
+max-width:500px) {
+    * {
+background-image:url(Images/desnip\ castle\ 2.png);
+    }
+    header a {
+        font-size:5px;
+        text-decoration:none;
+        color: white;
+        text-transform:uppercase;
+    }
+    ul,
+    li,
+    a {
+        margin-bottom:0px;
+        margin-right:8px;
+    }
+    .thumb {
+        font-size:20px;
+    }
+    .insta {
+        margin: auto;
+        margin-right:10px;
+        margin-top:16px;
+    }
+    .osh {
+        font-size:4rem;
+        text-transform:uppercase;
+        margin-top:100px;
+        color: white;
+        margin-left:40px;
+    }
+
+    .history {
+        display: flex;
+        margin-left:40px;
+        margin-top:-50px;
+        }
+        .spin {
+            font-size:10px;
+            margin-top:10px;
+        }
 }
