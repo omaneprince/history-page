@@ -1,20 +1,20 @@
 * body {
-  box-sizing: border-box;
-  background: rgb(34, 34, 34);
-  background-image:url(images/Rectangle\ 1.png);
- background-position:center;
- background-repeat: no-repeat;
-  font-family: font-family: 'Readex Pro', sans-serif;
+    box-sizing: border-box;
+    background: rgb(34, 34, 34);
+    background-image:url(images/Rectangle\ 1.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    font-family: font-family: 'Readex Pro', sans-serif;
 }
 html body header li a {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 nav,
 ul,
 li,
 a {
-  display: flex;
+    display: flex;
 }
 main {
     max-width: 1500px;
