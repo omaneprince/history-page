@@ -2,7 +2,7 @@
     box-sizing: border-box;
     background: rgb(34, 34, 34);
     background-image:url(images/Rectangle\ 1.png);
-    background-position:center;
+    background-position:top;
     background-repeat: no-repeat;
     font-family: font-family: 'Readex Pro', sans-serif;
 }
@@ -46,14 +46,16 @@ a {
 }
 .history {
 display: flex;
-margin-bottom:0px;
+margin-left:40px;
+margin-top:-50px;
 }
 .osh {
     font-size:8rem;
     text-transform:uppercase;
     margin-top:-50px;
     color: white;
-}span {
     margin-left:40px;
+}
+.too {
     color:white;
 }
