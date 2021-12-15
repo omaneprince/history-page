@@ -61,10 +61,10 @@ margin-top:-50px;
 @media screen and (
 max-width:500px) {
     * {
-background-image:url(Images/desnip\ castle\ 2.png);
+background-color:linear;
     }
     header a {
-        font-size:5px;
+        font-size:6px;
         text-decoration:none;
         color: white;
         text-transform:uppercase;
