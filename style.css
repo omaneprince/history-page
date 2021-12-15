@@ -75,12 +75,16 @@ background-color:linear;
         margin-bottom:0px;
         margin-right:8px;
     }
+    html,
+    body {
+        margin-left: -10px;
+    }
     .thumb {
         font-size:20px;
     }
     .insta {
         margin: auto;
-        margin-right:10px;
+        margin-right:50px;
         margin-top:16px;
     }
     .osh {
@@ -99,5 +103,12 @@ background-color:linear;
         .spin {
             font-size:10px;
             margin-top:10px;
+        }
+        .another {
+            color:white;
+            margin-top:150px;
+            position:absolute;
+            display: flex;
+            justify-content:space-between;
         }
 }
