@@ -58,6 +58,32 @@ margin-top:-50px;
 .too {
     color:white;
 }
+.another {
+    color:white;
+    margin-top:70px;
+    position:absolute;
+    display: flex;
+    justify-content:space-between;
+    font-size:15px;
+    margin-bottom:100px;
+}
+h3 {
+    text-decoration: underline;
+}
+.unesco {
+align-items: center;
+justify-content: center;
+display: flex;
+}
+.un {
+margin-left:30px;
+}
+.arrow {
+margin-left:1040px;
+}
+.cut {
+;
+}
 @media screen and (
 max-width:500px) {
     * {
